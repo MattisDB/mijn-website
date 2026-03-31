@@ -1,0 +1,106 @@
+.navbar-custom{
+    background-color: #262626;
+    border-bottom: 4px solid transparent;
+    border-image: linear-gradient(to right, #4B9DA6, #D96725) 1;
+}
+
+.footer-custom{
+    background-color: #262626;
+    border-top: 4px solid transparent;
+    border-image: linear-gradient(to right, #4B9DA6, #D96725) 1;
+    color: gray;
+}
+
+.footer-custom a{
+    color: inherit;
+}
+
+.banner-custom {
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('../assets/images/deco1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 4rem 0;
+}
+
+.btn-outline-custom{
+    color: white;
+    border: 2px solid #4B9DA6;
+    background: #4B9DA6;
+}
+
+.btn-outline-custom:hover{
+    color: #4B9DA6;
+    background-color: transparent;
+    border-color: #4B9DA6;
+}
+
+.btn-outline-custom2{
+    color: white;
+    border: 2px solid #4B9DA6;
+    background: #4B9DA6;
+}
+
+.btn-outline-custom2:hover{
+    color: #262626;
+    background-color: transparent;
+    border-color: #262626;
+}
+
+.form-custom{
+    background-color: #F1F0F0;
+    border-radius: 10px;
+}
+
+.project-banner-custom{
+    border-radius: 10px;
+    object-fit: cover;
+    height: clamp(100px, 20vw, 300px);
+    width: 100%;
+}
+
+.profilePic {
+    width: clamp(150px, 30vw, 320px);
+    height: auto;
+}
+
+.logo{
+    height: clamp(45px, 5vw, 70px);
+}
+
+.accent{
+    color: #4B9DA6;
+}
+
+.accent2{
+    color: #D96725;
+}
+
+.section-description{
+    background-color: #262626;
+    color: white;
+}
+
+.section-description p{
+    color: gray;
+}
+
+.card-image-custom{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-project-custom{
+    background-color: #F1F0F0 ;
+}
+
+.portfolio-card-link {
+    transition: all 0.2s ease;
+}
+
+.portfolio-link-card:hover .card{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transform: translateY(-3px);
+}
