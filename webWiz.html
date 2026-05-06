@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattis - WebWiz</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+    <!-- reset css bestand-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- eigen geschreven css voor jouw html-bestand -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- eigen geschreven js script-->
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body class="col" id="top">
+    <header>
+        <nav class="navbar navbar-dark navbar-custom navbar-expand-md">
+            <div class="container-fluid ps-md-5">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assets/icons/logo.png" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav ms-auto gap-md-4 pe-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="section-description p-5">
+            <div class="container">
+                <span class="accent2 text-uppercase mt-4">Netwerk</span>
+                <h1 class="py-2 fw-bold">Bekabeling start-up</h1>
+                <p>Een simulatie waarbij een fictieve start-up een nieuw netwerk installeerde op kantoor.</p>
+            </div>
+        </section>
+        <section class="p-5">
+            <div class="container">
+                <div class="row">
+
+                    <article class="col-12 col-md-8">
+                        <img class="project-banner-custom" src="./assets/images/banner-webWiz.png" alt="packetTracer">
+                        <p class="pt-3 fst-italic">Voor dit project moesten we voor een fictieve onderneming een nieuw plan opstellen voor de bekabeling van hun nieuw netwerk op kantoor.</p>
+                        <h2 class="h4">Projectbeschrijving</h2>
+                        <p>Het begon eigenlijk met in Packettracer een layout te maken het gebouw en de 2 verdiepingen. De serverkamers werden ingedeeld met de juiste componenten en de kabels en outlets naar de end-points werden geplaatst. Terijl ik dit deed hield ik de verschillende patchpanels bij in een excel document. Als dit klaar was moest alleen nog een aankooplijst gemaakt worden van de nodige materialen en een gedetailleerde versie van de serverkasten zelf.</p>
+                        <h2 class="h4">Wat heb ik geleerd</h2>
+                        <p>De voornaamste skill die ik heb bijgeleerd is basic werkt doen met Packettracer. Welke apparaten er zijn, hoe ze werken en hoe je ze met elkaar kan verbinden. Daarnaast kreeg ik ook meer inzicht over wat gebruikelijk is bij kantoren van die grootte. Ook de documentatie was natuurlijk al een goede introductie in hoe dit proffesioneel gedaan wordt.</p>
+                    </article>
+                    
+                    <aside class="col-12 col-md-4 pt-4 pt-md-0">
+                        <div class="row">
+                            <!-- RUIMTE VOOR UITBREIDING IN ASIDE-->
+                            <div class="card col-12 card-project-custom">
+                                <div class="card-body">
+                                    <h3 class="h6 card-title accent2 text-uppercase mb-3">Technologiën</h3>
+                                    <ul>
+                                        <li class="badge text-bg-secondary d-table">PacketTracer</li>
+                                        <li class="badge text-bg-secondary mt-2 d-table">Excel</li>
+                                        <li class="badge text-bg-secondary mt-2 d-table">Draw.io</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="card col-12 card-project-custom mt-5">
+                                <div class="card-body">
+                                    <h3 class="h6 card-title accent2 text-uppercase mb-3">Downloads</h3>
+                                    <a href="./assets/uploads/webwiz-packetTracer.pka" download class="btn btn-outline-custom2 mb-2">
+                                        <i class="bi bi-file-earmark-code"></i> PacketTracer
+                                    </a>
+                                    <a href="./assets/uploads/webwiz-patchplan.xlsx" download class="btn btn-outline-custom2 d-table mb-2">
+                                        <i class="bi bi-file-earmark-excel"></i> Patchpanel overzicht
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer footer-custom p-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <span>&copy; <span id="year"></span> Mattis — AP Hogeschool Antwerpen</span>
+            </div>
+            <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-end">
+                <span><a href="#top">Terug naar boven</a></span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
