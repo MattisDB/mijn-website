@@ -85,7 +85,7 @@
                     <div class="col-12 col-md-8 mt-4 mt-md-0 text-start form-custom">
                         <div class="container pt-5 p-md-5 ">
                             <h3 class="mb-4">Stuur een bericht</h3>
-                            <form action="post">
+                            <form name="contactForm" method="post" netlify>
 
                                 <div class="row g-3">
                                     <div class="col-sm-6">
@@ -112,7 +112,7 @@
                                 <textarea id="bericht" class="form-control" name="bericht"
                                 rows="5" placeholder="Schrijf hier je bericht..." required></textarea>
 
-                                <button type="submit" class="btn btn-outline-custom2 mt-5">
+                                <button type="submit" class="btn btn-outline-custom2 mt-5 mb-5 mb-md-0">
                                     Verstuur bericht
                                 </button>
                             </form>
