@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mattis - Contact</title>
-    <link rel="icon" href="./assets/icons/favicon.ico">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -14,12 +13,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <!-- JavaScript: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"
-        defer></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
     <!-- reset css bestand-->
     <link rel="stylesheet" href="./css/reset.css">
     <!-- eigen geschreven css voor jouw html-bestand -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- eigen geschreven js script-->
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body class="col" id="top">
@@ -127,7 +127,7 @@
     <footer class="footer footer-custom p-5">
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
-                <span>&copy;2026 Mattis — AP Hogeschool Antwerpen</span>
+                <span>&copy; <span id="year"></span> Mattis — AP Hogeschool Antwerpen</span>
             </div>
             <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-end">
                 <span><a href="#top">Terug naar boven</a></span>
